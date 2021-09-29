@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:clipChildren="false">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/start_btn_bg"
+        android:gravity="center"
+        android:text="START"
+        android:textColor="@color/start_text_color"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.fzc.luckyspin.LuckySpinView
+        android:id="@+id/luckySpin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_start"
+        app:luckywheel_BackgroundColor="#5B0D6E"
+        app:luckywheel_BorderColor="#FCDC4B"
+        app:luckywheel_BorderWidth="1dp"
+        app:luckywheel_TopTextColor="#00000000"
+        app:luckywheel_TopTextSize="30sp"
+        app:luckywheel_OutRadius="200dp"
+        app:luckywheel_InnerRadius="165dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

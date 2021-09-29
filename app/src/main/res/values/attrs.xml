@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LuckyWheelView">
+        <attr name="luckywheel_BackgroundColor" format="color" />
+        <attr name="luckywheel_BackgroundImg" format="reference" />
+        <attr name="luckywheel_CenterImage" format="reference" />
+        <attr name="luckywheel_BorderColor" format="color" />
+        <attr name="luckywheel_BorderWidth" format="integer|dimension" />
+        <attr name="luckywheel_TopTextColor" format="color" />
+        <attr name="luckywheel_TopTextPadding" format="dimension" />
+        <attr name="luckywheel_TopTextSize" format="dimension" />
+        <attr name="luckywheel_OutRadius" format="dimension" />
+        <attr name="luckywheel_InnerRadius" format="dimension" />
+    </declare-styleable>
+</resources>
