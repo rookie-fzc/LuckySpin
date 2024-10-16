@@ -1,0 +1,95 @@
+{
+	"code": 200,
+	"data": {
+		"switchInfo":{
+			"switchState":true
+		},
+		"poslist": [{
+			"adtype": 1,
+			"placeid": 10002,
+			"info": [{
+					"name": "gdt",
+					"parameter": "6013919448225916",
+					"weight": 3
+				},
+				{
+					"name": "tt",
+					"parameter": "947686073",
+					"weight": 2
+				},
+				{
+					"name": "bd",
+					"parameter": "7494986",
+					"weight": 1
+				}
+			]
+		}, {
+			"adtype": 2,
+			"placeid": 1096103,
+			"info": [{
+					"name": "gdt",
+					"parameter": "9011264358826997",
+					"weight": 3
+				},
+				{
+					"name": "tt",
+					"parameter": "901121365",
+					"weight": 2
+				},
+				{
+					"name": "bd",
+					"parameter": "8134085",
+					"weight": 1
+				}
+			]
+		}, {
+			"adtype": 4,
+			"placeid": 1096102,
+			"info": [{
+					"name": "gdt",
+					"parameter": "9011264358826997",
+					"weight": 3
+				},
+				{
+					"name": "tt",
+					"parameter": "901121365",
+					"weight": 2
+				},
+				{
+					"name": "bd",
+					"parameter": "5925490",
+					"weight": 1
+				}
+			]
+		}, {
+			"adtype": 3,
+			"placeid": 1096104,
+			"info": [{
+					"name": "gdt",
+					"parameter": "9051949928507973",
+					"weight": 3
+				},
+				{
+					"name": "tt",
+					"parameter": "901121375",
+					"weight": 2
+				},
+				{
+					"name": "bd",
+					"parameter": "8134085",
+					"weight": 1
+				}
+			]
+		}, {
+			"adtype": 5,
+			"placeid": 1096105,
+			"info": [
+                {
+                    "name": "bd",
+                    "parameter": "7573968",
+                    "weight": 1
+                }
+			]
+		}]
+	}
+}
